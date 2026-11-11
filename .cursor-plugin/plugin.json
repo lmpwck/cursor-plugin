@@ -1,0 +1,16 @@
+{
+  "name": "lampwick",
+  "version": "1.0.0",
+  "description": "Lampwick application monitoring in Cursor: the hosted Lampwick MCP server (exceptions, slow requests, jobs, queries, logs, scheduled tasks and uptime monitors; sign in with OAuth, read-only or read & write) and a skill that triages a project's open issues against your code.",
+  "author": {
+    "name": "NIO Media",
+    "email": "info@niomedia.nl"
+  },
+  "homepage": "https://lampwick.dev/docs/mcp/",
+  "repository": "https://github.com/lmpwck/cursor-plugin",
+  "license": "MIT",
+  "keywords": ["monitoring", "errors", "exceptions", "logs", "uptime", "mcp"],
+  "logo": "assets/logo.svg",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
